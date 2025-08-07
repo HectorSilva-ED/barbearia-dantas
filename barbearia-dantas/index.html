@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Barbearia Dantas Since 1968 - Tradição, estilo e atendimento de excelência no coração de São Paulo.">
+  <title>Barbearia Dantas</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #111;
+      color: #fff;
+    }
+    .hero {
+      background: url('barbearia.jpg') center/cover no-repeat;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      text-align: center;
+    }
+    .overlay {
+      background-color: rgba(0,0,0,0.7);
+      padding: 3rem;
+    }
+    .overlay h1 {
+      font-size: 3rem;
+      color: gold;
+      margin: 0;
+    }
+    .overlay p {
+      font-size: 1.2rem;
+      margin-bottom: 1.5rem;
+    }
+    .btn {
+      background-color: gold;
+      color: black;
+      padding: 0.8rem 1.5rem;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+    section {
+      padding: 3rem 1.5rem;
+      max-width: 960px;
+      margin: auto;
+    }
+    h2 {
+      color: gold;
+      border-bottom: 2px solid gold;
+      padding-bottom: 0.5rem;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin: 0.5rem 0;
+    }
+    .fotos {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .fotos img {
+      width: 30%;
+      border-radius: 10px;
+    }
+    blockquote {
+      font-style: italic;
+      margin: 1rem 0;
+      border-left: 4px solid gold;
+      padding-left: 1rem;
+    }
+    footer {
+      background-color: #000;
+      text-align: center;
+      padding: 1.5rem;
+    }
+    .social a {
+      color: gold;
+      margin: 0 1rem;
+      text-decoration: none;
+    }
+    .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      padding: 0.8rem 1rem;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+    iframe {
+      border-radius: 10px;
+    }
+    @media (max-width: 768px) {
+      .fotos img {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="overlay">
+      <h1>Barbearia Dantas</h1>
+      <p>Since 1968</p>
+      <a href="https://wa.me/5511946328950" class="btn">Agende seu horário</a>
+    </div>
+  </header>
+
+  <section id="sobre">
+    <h2>Sobre a Barbearia</h2>
+    <p>Com mais de 50 anos de tradição, a Barbearia Dantas é referência em cortes masculinos, barba e atendimento personalizado. Localizada na Bela Vista, somos sinônimo de estilo, cuidado e excelência.</p>
+  </section>
+
+  <section id="servicos">
+    <h2>Serviços</h2>
+    <ul>
+      <li>Corte masculino clássico - R$ 60</li>
+      <li>Barba completa - R$ 40</li>
+      <li>Corte + Barba - R$ 90</li>
+      <li>Desenho e pigmentação - R$ 100</li>
+    </ul>
+  </section>
+
+  <section id="galeria">
+    <h2>Galeria</h2>
+    <div class="fotos">
+      <img src="img1.jpg" alt="Corte 1">
+      <img src="img2.jpg" alt="Corte 2">
+      <img src="img3.jpg" alt="Equipe">
+    </div>
+  </section>
+
+  <section id="depoimentos">
+    <h2>O que dizem nossos clientes</h2>
+    <blockquote>“Melhor barbearia de São Paulo! Atendimento top e ambiente impecável.” – João P.</blockquote>
+    <blockquote>“Sou cliente há anos. Tradição e qualidade!” – Carlos M.</blockquote>
+  </section>
+
+  <section id="localizacao">
+    <h2>Onde estamos</h2>
+    <p>Rua Aguiar de Barros, nº80, Bela Vista, São Paulo – SP</p>
+    <iframe src="https://www.google.com/maps?q=Rua+Aguiar+de+Barros,+80,+Bela+Vista,+São+Paulo&output=embed" width="100%" height="300" loading="lazy"></iframe>
+  </section>
+
+  <footer>
+    <p>© 2025 Barbearia Dantas. Todos os direitos reservados.</p>
+    <div class="social">
+      <a href="https://www.instagram.com/seudantasbarber?igsh=N3JpbHgwcnFzeWc5" target="_blank">Instagram</a>
+      <a href="https://wa.me/5511946328950" target="_blank">WhatsApp</a>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/5511946328950" class="whatsapp" target="_blank">Agende pelo WhatsApp</a>
+</body>
+</html>
